@@ -313,3 +313,6 @@ footer .container{
     top: 165px;
     font-size: 12px;
 }
+.centertext{
+    text-align: center;
+}

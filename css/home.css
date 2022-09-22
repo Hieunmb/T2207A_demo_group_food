@@ -313,3 +313,89 @@ footer .container{
     top: 165px;
     font-size: 12px;
 }
+.hieu1{
+    color: #81b700;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'Exo', sans-serif;
+    position: relative;
+    padding: 5px 0;
+}
+.border{
+    width: 10%;
+    position: absolute;
+    left: 45%;
+    border-bottom: solid 3px #ffb04c;
+}
+.food{
+    width: 213.4px;
+    line-height: 40px;
+    border: solid 2px #e6e6e6;
+    box-shadow: none;
+    margin: 8px;
+    box-sizing: inherit;
+    float: left;
+    padding: 8px;
+}
+.card{
+    color: #81b700;
+    font-weight: 500;
+    font-family: 'Exo', sans-serif;
+    padding: 5px 0;
+}
+.food:hover{
+    border:solid 2px #81B700;
+}
+.price{
+    color: #d87900;
+    font-size: 16px;
+    font-family: "Product_Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    line-height: 1.2857em;
+    text-transform: none;
+}
+#camket1{
+    border-right: 25px solid white;
+    padding: 40px 30px;
+    background-image:url("https://organicfood.weba.vn/shop/images/organicfood/hinhanh/bg_camket4.jpg");
+    width: 25%;
+    color: white;
+    font-family: "Product_Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-size: 1.28em;
+    line-height: 1.35;
+    box-sizing: inherit;
+    float: left;
+}#camket2{
+     border-right: 25px solid white;
+    padding: 40px 30px;
+    background-image:url("https://organicfood.weba.vn/shop/images/organicfood/hinhanh/bg_camket3.jpg");
+    width: 25%;
+    color: white;
+    font-family: "Product_Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-size: 1.28em;
+    line-height: 1.35;
+    box-sizing: inherit;
+    float: left;
+}#camket3{
+      border-right: 25px solid white;
+    padding: 40px 30px;
+    background-image:url("https://organicfood.weba.vn/shop/images/organicfood/hinhanh/bg_camket2.jpg");
+    width: 25%;
+    color: white;
+    font-family: "Product_Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-size: 1.28em;
+    line-height: 1.35;
+    box-sizing: inherit;
+    float: left;
+}#camket4{
+       border-right: 25px solid white;
+    padding: 40px 30px;
+    background-image:url("https://organicfood.weba.vn/shop/images/organicfood/hinhanh/bg_camket1.jpg");
+    width: 25%;
+    color: white;
+    font-family: "Product_Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-size: 1.28em;
+    line-height: 1.35;
+    box-sizing: inherit;
+    float: left;
+}
