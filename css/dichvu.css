@@ -153,6 +153,7 @@ header .item{
 }
 .khung:hover .subnav{
     display: block;
+    z-index: 2;
 }
 .subnav li a::before{
     content: '\00bb';
