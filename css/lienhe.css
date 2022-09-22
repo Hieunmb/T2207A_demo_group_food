@@ -313,3 +313,55 @@ footer .container{
     top: 165px;
     font-size: 12px;
 }
+.contact-page{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.address-box {
+    width: 50%;
+}
+.address-box .address h2{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.address p{
+    font-size: 20px;
+}
+.address p i.fa{
+    margin-right: 10px;
+}
+.address{
+    margin-bottom: 30px;
+}
+.form-lien-he{
+    width: 45%;
+}
+.form-lien-he form input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.red-input{
+    color: red;
+}
+.noi-dung{
+    border-radius: 5px;
+}
+.form-lien-he label{
+    font-weight: 700;
+}
+.submit-lien-he{
+    height: 36px;
+    width: 115px;
+    border-radius: 5px;
+    background-color: #eb8401;
+    color: #ffffff;
+    border-color: #eb8401;
+    text-shadow: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 10px;
+}

@@ -6,7 +6,7 @@
     <title>Liên Hệ</title>
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
-
+    <link rel="stylesheet" href="css/lienhe.css">
 </head>
 <body>
 <header class="section header">
@@ -44,8 +44,33 @@
     </div>
 </header>
 <section class="section main">
-    <div class="container">
-
+    <div class="container contact-page">
+        <div class="address-box">
+            <div class="address">
+                <h2>công ty tnhh thương mại dịch vụ đầu tư bạn phú</h2>
+                <p><i class="fa fa-map-marker" aria-hidden="true"></i><b>Địa chỉ: </b><a href="https://www.google.com/maps/search/vnaz.vn%20%C4%90o%C3%A0n%20H%E1%BA%A3i%20Plaza,%20S%E1%BB%91%20756%20Tr%C6%B0%E1%BB%9Dng%20Chinh,%20T%C3%A2n%20B%C3%ACnh,%20H%E1%BB%93%20Ch%C3%AD%20Minh">vnaz.vn Đoàn Hải Plaza, Số 756 Trường Chinh, Tân Bình, Hồ Chí Minh</a></p>
+                <p><i class="fa fa-phone" aria-hidden="true"></i><b>Hotline: </b><a href="tel:02866860863">02866860863</a></p>
+                <p><i class="fa fa-envelope" aria-hidden="true"></i><b>Mail: </b><a href="https://mail.google.com/mail/?view=cm&fs=1&to=kinhdoanh@vnaz.vn">kinhdoanh@vnaz.vn</a></p>
+            </div>
+            <div class="address-google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d15675.726610150887!2d106.6323504!3d10.8165425!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x317529619669e9db%3A0xb7a9d7e85f24600d!2zRG9hbiBIYWkgUGxhemEgNzU4IFRyxrDhu51uZyBDaGluaCBQaMaw4budbmcgMTUgVMOibiBCw6xuaCwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5o!3m2!1d10.8165024!2d106.6322124!5e0!3m2!1sen!2s!4v1663863147091!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="form-lien-he">
+            <form id="contact-form" method="get" action="#">
+                <label>Họ tên<span class="red-input">*</span></label>
+                <input type="text" required name="fullname"/>
+                <label>Email<span class="red-input">*</span></label>
+                <input type="email" required name="yourname"/>
+                <label>Điện thoại<span class="red-input">*</span></label>
+                <input type="tel" required name="yourphone"/>
+                <label>Tiêu đề<span class="red-input">*</span></label>
+                <input type="text" required name="tieude"/>
+                <label>Nội dung<span class="red-input">*</span></label>
+                <textarea class="noi-dung" rows="9" cols="65%" name="noidung" form="contact-form"></textarea>
+                <button class="submit-lien-he" type="submit">Gửi liên hệ</button>
+            </form>
+        </div>
     </div>
 </section>
 <footer class="section footer">
