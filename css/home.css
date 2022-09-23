@@ -366,6 +366,7 @@ footer .container{
     line-height: 1.35;
     box-sizing: inherit;
     float: left;
+    margin: 10px 0;
 }#camket2{
      border-right: 25px solid white;
     padding: 40px 30px;
@@ -377,6 +378,7 @@ footer .container{
     line-height: 1.35;
     box-sizing: inherit;
     float: left;
+    margin:10px 0;
 }#camket3{
       border-right: 25px solid white;
     padding: 40px 30px;
@@ -388,6 +390,7 @@ footer .container{
     line-height: 1.35;
     box-sizing: inherit;
     float: left;
+    margin:10px 0;
 }#camket4{
        border-right: 25px solid white;
     padding: 40px 30px;
@@ -399,6 +402,7 @@ footer .container{
     line-height: 1.35;
     box-sizing: inherit;
     float: left;
+    margin:10px 0;
 }
 .cardtin{
     width: calc((100% / 4) - 30px);
