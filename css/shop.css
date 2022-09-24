@@ -335,4 +335,9 @@ tr:nth-child(even) {
 #total {
     text-align: right;
 }
+h1{
+    text-align: center;
+    color: #F26435;
+    font-size: 30px;
+}
 
