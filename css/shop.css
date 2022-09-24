@@ -308,8 +308,31 @@ footer .container{
     top: 85px;
     border-radius: 5px;
 }
-.part4 .company p{
+.part4 .company p {
     position: absolute;
     top: 165px;
     font-size: 12px;
 }
+
+/* table design*/
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #EAE7E6;
+}
+
+td, th {
+    border: 1px solid #cccccc;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#total {
+    text-align: right;
+}
+
