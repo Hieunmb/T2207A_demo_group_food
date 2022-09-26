@@ -223,6 +223,44 @@ header .item{
 .phan75 .card:hover{
     border: 2px solid #81b700;
 }
+.phan75 .btn-next{
+    display: flex;
+    width: 180px;
+    margin: 5px 0 0 10px;
+}
+
+.phan75 .btn-next div{
+    width: 25%;
+    border-left: 2px solid #e6e6e6;
+    border-top: 2px solid #e6e6e6;
+    border-bottom: 2px solid #e6e6e6;
+    height: 40px;
+}
+.phan75 .btn-next a{
+    width: 100%;
+    display: block;
+    padding: 9px 16px;
+    color: black;
+}
+.phan75 .btn-next div:first-child{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.phan75 .btn-next div:first-child a{
+    color: #e6e6e6;
+}
+.phan75 .btn-next a:hover{
+    background-color: rgba(0,0,0,.05);
+}
+.phan75 .btn-next .mot{
+    background-color: rgba(0,0,0,.05);
+}
+
+.phan75 .btn-next div:last-child{
+    border-right: 2px solid #e6e6e6;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
 .phan75 .dichvu,
 .phan25 .title {
     padding: 5px 0;
