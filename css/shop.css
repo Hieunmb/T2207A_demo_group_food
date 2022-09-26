@@ -356,15 +356,18 @@ h1{
     height:36px ;
     width:120px ;
     border-radius: 5px;
-    background-color:orangered;
+    background-color:#eb8401;
     color: white;
-    border-color:orangered ;
-    text-shadow: orangered;
+    border-color:#eb8401 ;
+    text-shadow: #eb8401;
     font-weight: 700;
     font-size:14px;
     float: right;
 }
 .chinhle{
     padding-top: 25px;
+}
+.thanhtoan:hover{
+    background-color: #2185D0;
 }
 
