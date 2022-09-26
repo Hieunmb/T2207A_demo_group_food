@@ -273,7 +273,10 @@ header .item{
     border-bottom: #cccccc solid 1px;
 }
 .phan25 .baotrum li a:hover{
-    background: rgba(0,0,0,.03);
+    background: rgba(0,0,0,.04);
+}
+.phan25 .baotrum .gao{
+    background: rgba(0,0,0,.04);
 }
 .phan25 .list{
     width: 100%;
