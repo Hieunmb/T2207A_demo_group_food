@@ -220,21 +220,21 @@ header .item{
 .phan75 .card:hover{
     border: solid 2px #81B700;
 }
-.phan75 .tintuc,
+.phan75 .dichvu,
 .phan25 .title {
     padding: 5px 0;
     color: #81B700;
     font-size: 15px;
     position: relative;
 }
-.phan75 .tintuc::before,
+.phan75 .dichvu::before,
 .phan25 .title::before {
     width: 10%;
     content: "";
     position: absolute;
     bottom: 0;
     left: 45%;
-    border-bottom: solid 0px #ffb04c;
+    border-bottom: solid 3px #ffb04c;
 }
 .card img{
     width: 100%;
