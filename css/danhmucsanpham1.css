@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fafafa;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-weight: 400;
+    line-height: 1.35;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1155px;
+    float: none;
+    margin: 0 auto;
+}
+/*header*/
+
+header{
+    padding: 14px 14px 0 14px;
+}
+header .container{
+    height: 88px;
+    padding-top: 15px;
+}
+header .title{
+    width: 25%;
+    float: left;
+    padding: 14px;
+    font-size: 42px;
+    height: 88px;
+}
+header .title a{
+    display: block;
+    text-align: center;
+    line-height: 48px;
+    color: #81B700;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+header .element{
+    width: 56.25%;
+    float: left;
+    height: 88px;
+}
+header .item{
+    width: 18.75%;
+    float: left;
+    height: 88px;
+}
+.search{
+    width: 100%;
+    height: 36px;
+    position: relative;
+}
+.element .search .fa-search {
+    position: absolute;
+    color: #5b8200;
+    top: 12px;
+    left: 12px;
+    font-weight: 600;
+}
+.item .khung .fa-caret-down{
+    font-size: 13px;
+    padding-left: 4px;
+    font-weight: 800;
+}
+.element .search input{
+    width: 90%;
+    float: left;
+    height: 38px;
+    padding: 10px 15px 10px 30px;
+    outline-style: none!important;
+    border: 1px solid #81B700;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.element .search button{
+    width: 10%;
+    float: left;
+    height: 38px;
+    color: #81B700;
+    outline-style: none;
+    border: 1px solid #81B700;
+    background: white;
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.menu .nav{
+    width: 100%;
+    height: 40px;
+}
+.element .menu{
+    margin: 5px 0;
+}
+.nav li{
+    float: left;
+    width: calc(100% / 6);
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+.nav li a{
+    color: #81B700;
+    line-height: 40px;
+    display: inline-block;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 410;
+}
+
+.container .item{
+    padding: 14px;
+    text-align: center;
+    height: 76px;
+}
+.khung{
+    padding: 10px;
+    background-color: #81B700;
+    position: relative;
+    border-radius: 5px;
+}
+.danhmucsanpham{
+    color: #fff;
+    position: relative;
+}
+.khung .subnav{
+    display: none;
+    position: absolute;
+    background-color: #81b700;
+    top: 100%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    min-width: 188.56px;
+    left: 0;
+}
+.khung:hover .subnav{
+    display: block;
+    z-index: 2;
+}
+.subnav li a::before{
+    content: '\00bb';
+    font-size: 20px;
+    position: absolute;
+    opacity: 0;
+    transition: 500ms;
+    width: 10px;
+    height: 10px;
+}
+.subnav li:hover a{
+    padding-left: 20px;
+    color: #fff;
+    transition: 500ms;
+}
+.subnav li:hover a:before{
+    left: 20px;
+    transition: 500ms;
+    opacity: 1;
+}
+
+.subnav li a{
+    color: rgba(0,0,0,0.87);
+    display: block;
+    font-weight: 400;
+    line-height: 14px;
+}
+.subnav li{
+    text-align: left;
+    display: block;
+    padding: 11px 16px;
+    background-color: #b2e831;
+}
+.nature{
+    width: 100%;
+    float: left;
+    color: #81B700;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.nav li:hover a{
+    color: #fff;
+    background-color: #81B700;
+    transition: all 500ms;
+    border-radius: 5px;
+}
+/*main*/
+.clear {
+    clear: both;
+    display: block;
+}
+.container .phan75{
+    width: 75%;
+    float: left;
+    padding: 14px;
+    text-align: center;
+
+}
+.phan75 .card{
+    width: calc((100% / 4) - 20px);
+    margin: 10px 10px;
+    float: left;
+    border: solid 2px #e6e6e6;
+    min-height: 320px;
+    border-radius: 5px;
+}
+.phan75 .card:hover{
+    border: 2px solid #81b700;
+}
+.phan75 .btn-next{
+    display: flex;
+    width: 180px;
+    margin: 5px 0 0 10px;
+}
+
+.phan75 .btn-next div{
+    width: 25%;
+    border-left: 2px solid #e6e6e6;
+    border-top: 2px solid #e6e6e6;
+    border-bottom: 2px solid #e6e6e6;
+    height: 40px;
+}
+.phan75 .btn-next a{
+    width: 100%;
+    display: block;
+    padding: 9px 16px;
+    color: black;
+}
+.phan75 .btn-next div:first-child{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.phan75 .btn-next div:first-child a{
+    color: #e6e6e6;
+}
+.phan75 .btn-next a:hover{
+    background-color: rgba(0,0,0,.05);
+}
+.phan75 .btn-next .mot{
+    background-color: rgba(0,0,0,.05);
+}
+
+.phan75 .btn-next div:last-child{
+    border-right: 2px solid #e6e6e6;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.phan75 .dichvu,
+.phan25 .title {
+    padding: 5px 0;
+    color: #81B700;
+    font-size: 15px;
+    position: relative;
+}
+.phan75 .dichvu::before,
+.phan25 .title::before {
+    width: 10%;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    border-bottom: solid 3px #ffb04c;
+}
+.card img{
+    width: 100%;
+}
+.card .information {
+    padding: 14px;
+    text-align: left;
+}
+.container .phan25{
+    width: 25%;
+    float: left;
+    padding: 14px;
+    text-align: center;
+    min-height: 625px;
+}
+.phan25 .title{
+    width: 100%;
+    font-size: 12px;
+    margin-bottom: 14px;
+}
+.phan25 .baotrum{
+    box-shadow: 0 0 2px #81B700;
+    margin-bottom: 14px;
+    border-radius: 5px;
+}
+.phan25 .baotrum li a{
+    width: 100%;
+    color: #81B700;
+    font-size: 15px;
+    font-weight: 400;
+    display: block;
+    padding: 10px 16px;
+    border-bottom: #cccccc solid 1px;
+}
+.phan25 .baotrum li a:hover{
+    background: rgba(0,0,0,.03);
+}
+.phan25 .list{
+    width: 100%;
+}
+.phan25 .list .danhsach a{
+    padding: 14px 0;
+    display: flex;
+    border-bottom: #cccccc solid 1px;
+}
+.list .danhsach img{
+    width: 35%;
+}
+.list .danhsach .content{
+    width: 65%;
+    padding-left: 21px;
+}
+.list .content h2,
+.card .information h2{
+    color: #81B700;
+    font-size: 16px;
+    font-weight: 400;
+}
+.list .content p,
+.card .information p{
+    color: #d87900;
+    margin: 7px 0;
+    font-weight: 500;
+}
+
+/*footer*/
+
+footer{
+    padding: 14px;
+    color: #fff;
+}
+footer .container{
+    margin: 0 auto;
+}
+.cover{
+    background-color: rgba(0,0,0,.87);
+    padding: 0 10px;
+    min-width: 1155px;
+    min-height: 270px;
+}
+.part1{
+    width: 25%;
+    float: left;
+    background-color: rgba(0,0,0,.87);
+    padding: 14px;
+    height: 270px;
+}
+.part1 .tren h2{
+    width: 100%;
+    color: #81B700;
+    font-size: 32px;
+}
+.part1 .tren p{
+    width: 100%;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.part1 .duoi p{
+    font-size: 12px;
+}
+.part2,
+.part3{
+    position: relative;
+    width: 20%;
+    float: left;
+    background-color: rgba(0,0,0,.87);
+    padding: 14px;
+    height: 270px;
+}
+.part2 .list,
+.part3 .list{
+    position: absolute;
+    display: inline-block;
+    box-shadow: 0 0 2px #81b700;
+    border-radius: 10px;
+    min-width: 195px;
+}
+.part3 .list li,
+.part2 .list li{
+    padding: 10px 16px;
+    font-size: 14px;
+}
+.part2 .list li a,
+.part3 .list li a{
+    display: block;
+    color: #fff;
+}
+.part2 .list li:hover a,
+.part3 .list li:hover a{
+    color: #81B700;
+}
+.part2 .list .h4 a,
+.part3 .list .h4 a{
+    font-size: 15px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+}
+.part4{
+    position: relative;
+    width: 35%;
+    float: left;
+    background-color: rgba(0,0,0,.87);
+    padding: 14px;
+    height: 270px;
+}
+.part4 .form form{
+    position: absolute;
+    display: inline-block;
+    min-width: 369.250px;
+    height: 110px;
+}
+.part4 .form form label{
+    position: absolute;
+}
+.part4 .form form input{
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    height: 40px;
+    border-radius: 5px;
+}
+.part4 button{
+    position: absolute;
+    color: #fff;
+    top: 12px;
+    height: 40px;
+}
+.part4 .form form button{
+    background-color: #81B700;
+    width: 50%;
+    top: 85px;
+    border-radius: 5px;
+}
+.part4 .company p {
+    position: absolute;
+    top: 165px;
+    font-size: 12px;
+}
