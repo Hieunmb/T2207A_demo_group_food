@@ -36,21 +36,19 @@ header{
 header .container{
     height: 88px;
     padding-top: 15px;
+    position: relative;
 }
 header .title{
     width: 25%;
     float: left;
-    padding: 14px;
-    font-size: 42px;
     height: 88px;
 }
-header .title a{
-    display: block;
-    text-align: center;
-    line-height: 48px;
-    color: #81B700;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
+header .title img{
+    width: 288.75px;
+    height: 88px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
 }
 header .element{
     width: 56.25%;
