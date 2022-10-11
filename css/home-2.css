@@ -138,14 +138,19 @@ header .item{
     color: #fff;
     position: relative;
 }
+.danhmucsanpham:hover{
+    color: #fff;
+}
 .khung .subnav{
     display: none;
     position: absolute;
     background-color: #81b700;
     top: 100%;
     box-shadow: 0 0 5px rgba(0,0,0,0.3);
-    min-width: 188.56px;
+    min-width: 184.56px;
     left: 0;
+    z-index: 2;
+    padding-left: 0;
 }
 .khung:hover .subnav{
     display: block;
@@ -242,6 +247,7 @@ footer .container{
 }
 .part2 .list,
 .part3 .list{
+    padding-left: 0;
     position: absolute;
     display: inline-block;
     box-shadow: 0 0 2px #81b700;
@@ -311,115 +317,71 @@ footer .container{
     top: 165px;
     font-size: 12px;
 }
-.hieu1{
-    color: #81b700;
-    font-weight: 500;
-    font-size: 24px;
-    font-family: 'Exo', sans-serif;
+.list-card-item:hover {
+    border: 1px solid #81B700;
+    box-shadow: 0 0 2px #81B700;
+}
+.title-green {
+    color: #81B700;
+}
+.list-card-four {
+    padding-left: 0;
+    padding-right: 0;
+}
+.color-title-card {
+    color: #4d8bc8;
+}
+.title-center {
     position: relative;
     padding: 5px 0;
+    border-color: #2185d000;
+    border-width: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: #81b700;
+    margin: 1rem 0;
 }
-.border{
+.title-center::before {
     width: 10%;
+    content: "";
     position: absolute;
+    bottom: 0;
     left: 45%;
     border-bottom: solid 3px #ffb04c;
 }
-.food{
-    width: 213.1px;
-    line-height: 40px;
-    border: solid 2px #e6e6e6;
-    box-shadow: none;
-    margin: 8px;
-    box-sizing: inherit;
-    float: left;
-    padding: 8px;
+.coverelement {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    height: 130px;
 }
-.card{
-    color: #81b700;
-    font-weight: 500;
-    font-family: 'Exo', sans-serif;
-    padding: 5px 0;
-}
-.food:hover{
-    border:solid 2px #81B700;
-    border-radius: 5px;
-}
-.price{
-    color: #d87900;
-    font-size: 16px;
-    font-family: "Product_Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;
+.blockelement1,
+.blockelement2,
+.blockelement3,
+.blockelement4 {
+    margin: 0 12px;
+    flex: 1;
+    padding: 14px 29px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
     font-weight: 700;
-    line-height: 1.2857em;
-    text-transform: none;
+    text-align: center;
 }
-#camket1{
-    border-right: 25px solid white;
-    padding: 40px 30px;
-    background-image:url("https://organicfood.weba.vn/shop/images/organicfood/hinhanh/bg_camket4.jpg");
-    width: 25%;
-    color: white;
-    font-family: "Product_Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;
-    font-size: 1.28em;
-    line-height: 1.35;
-    box-sizing: inherit;
-    float: left;
-    margin: 10px 0;
-}#camket2{
-     border-right: 25px solid white;
-    padding: 40px 30px;
-    background-image:url("https://organicfood.weba.vn/shop/images/organicfood/hinhanh/bg_camket3.jpg");
-    width: 25%;
-    color: white;
-    font-family: "Product_Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;
-    font-size: 1.28em;
-    line-height: 1.35;
-    box-sizing: inherit;
-    float: left;
-    margin:10px 0;
-}#camket3{
-      border-right: 25px solid white;
-    padding: 40px 30px;
-    background-image:url("https://organicfood.weba.vn/shop/images/organicfood/hinhanh/bg_camket2.jpg");
-    width: 25%;
-    color: white;
-    font-family: "Product_Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;
-    font-size: 1.28em;
-    line-height: 1.35;
-    box-sizing: inherit;
-    float: left;
-    margin:10px 0;
-}#camket4{
-       border-right: 25px solid white;
-    padding: 40px 30px;
-    background-image:url("https://organicfood.weba.vn/shop/images/organicfood/hinhanh/bg_camket1.jpg");
-    width: 25%;
-    color: white;
-    font-family: "Product_Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;
-    font-size: 1.28em;
-    line-height: 1.35;
-    box-sizing: inherit;
-    float: left;
-    margin:10px 0;
+.blockelement1 {
+    background-image: url("https://organicfood.weba.vn/shop/images/organicfood/hinhanh/bg_camket4.jpg");
 }
-.cardtin{
-    width: calc((100% / 4) - 30px);
-    margin: 10px 15px;
-    float: left;
-    border: solid 2px #e6e6e6;
-    min-height: 325px;
-    border-radius: 5px;
+.blockelement2 {
+    background-image: url("https://organicfood.weba.vn/shop/images/organicfood/hinhanh/bg_camket3.jpg");
 }
-.card .information .text {
-    font-size: 14px;
-    line-height: 1.3;
-    margin-top: 7px;
-    color: rgba(0,0,0,.68);
+.blockelement3 {
+    background-image: url("https://organicfood.weba.vn/shop/images/organicfood/hinhanh/bg_camket2.jpg");
 }
-.tintuc{
-    color: black;
-    font-size:14px;
+.blockelement4 {
+    background-image: url("https://organicfood.weba.vn/shop/images/organicfood/hinhanh/bg_camket1.jpg");
 }
-h4{
-    color: #7c7cf1;
+.border-img {
+    border-radius: 10px;
 }
